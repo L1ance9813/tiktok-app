@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Grumpy Old Grandpa Content Pipeline</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f0f0f; color: #e0e0e0; padding: 2rem; line-height: 1.8;
+    }
+    .content { max-width: 720px; margin: 0 auto; }
+    h1 { color: #ff4444; font-size: 1.6rem; margin-bottom: 1.5rem; }
+    h2 { color: #ccc; font-size: 1.1rem; margin-top: 2rem; margin-bottom: 0.5rem; }
+    p { color: #999; margin-bottom: 1rem; }
+    .last-updated { color: #666; font-size: 0.8rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last updated: June 13, 2026</p>
+
+    <h2>1. Information We Collect</h2>
+    <p>
+      The Grumpy Old Grandpa Content Pipeline ("the Service") is a local application that runs on your
+      own computer. It does not have remote servers or databases that collect or store your personal
+      information.
+    </p>
+
+    <h2>2. Data Processed Locally</h2>
+    <p>
+      The Service processes video files, images, and metadata that you provide. All processing occurs
+      locally on your machine. Temporary copies of your files may be created during processing and are
+      deleted after publishing. Files in the <code>uploads/</code> and <code>processed/</code> directories
+      are cleaned up automatically.
+    </p>
+
+    <h2>3. Third-Party API Access</h2>
+    <p>
+      The Service communicates with YouTube and TikTok APIs only when you initiate an upload. When you
+      upload content:
+    </p>
+    <p>
+      • Your video and metadata are sent directly to the platform you selected (YouTube and/or TikTok)
+      via their official APIs.
+    </p>
+    <p>
+      • OAuth tokens are stored locally in the <code>config/</code> directory. These tokens grant the
+      Service permission to upload on your behalf. You can revoke these tokens at any time through your
+      Google or TikTok account settings.
+    </p>
+
+    <h2>4. No Data Collection</h2>
+    <p>
+      The Service does not:
+    </p>
+    <p>
+      • Collect analytics or usage data<br>
+      • Send telemetry or crash reports<br>
+      • Track your activity<br>
+      • Share your data with third parties (beyond the platforms you explicitly select)<br>
+      • Store your content on any remote server
+    </p>
+
+    <h2>5. Data Retention</h2>
+    <p>
+      Upload history is stored locally in <code>config/history.json</code> for your convenience (limited
+      to 50 entries). OAuth tokens are stored locally and can be deleted at any time. No data is stored
+      on remote servers.
+    </p>
+
+    <h2>6. Security</h2>
+    <p>
+      Since the Service runs locally, data security depends on your system's security. OAuth tokens are
+      stored as plain text in your local config directory. We recommend ensuring your system is secure
+      and not sharing access to the config directory.
+    </p>
+
+    <h2>7. Changes to This Policy</h2>
+    <p>
+      We may update this privacy policy occasionally. Continued use of the Service after changes
+      constitutes acceptance of the updated policy.
+    </p>
+
+    <h2>8. Contact</h2>
+    <p>
+      For questions about this privacy policy, please contact the developer at L1ance9813 on GitHub.
+    </p>
+  </div>
+</body>
+</html>
